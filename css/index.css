@@ -1,0 +1,316 @@
+.hd-bg {
+    height: 90px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header {
+    height: 100%;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.header .logo {
+    float: left;
+    margin-top: 22px;
+}
+
+.header .logo a {
+    display: block;
+    width: 170px;
+    height: 46px;
+    background: url("../img/logo.png")
+}
+
+.header .nav {
+    float: left;
+    margin-left: 25px;
+}
+
+.nav li {
+    float: left;
+    font-size: 18px;
+}
+
+.nav li a {
+    display: block;
+    padding: 36px 18px;
+}
+
+.nav li a:hover {
+    background-color: #31c27c;
+    color: #fff;
+}
+
+.header .searchBar {
+    width: 218px;
+    height: 36px;
+    border: 1px solid #c9c9c9;
+    float: left;
+    margin-top: 26px;
+    margin-left: 58px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.searchBar input {
+    float: left;
+    width: 182px;
+    height: 36px;
+    text-indent: 10px;
+}
+
+.searchBar a {
+    width: 36px;
+    height: 36px;
+    float: right;
+}
+
+.searchBar a i {
+    width: 17px;
+    height: 17px;
+    display: block;
+    background: url("../img/icon_sprite.png");
+    margin: 8px auto 0;
+}
+
+.header .tools {
+    float: right;
+    width: 262px;
+    height: 38px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.header .login {
+    font-size: 16px;
+    line-height: 38px;
+    float: left;
+    margin-right: 25px;
+}
+
+.header .vip {
+    width: 111px;
+    height: 38px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #31c27c;
+    line-height: 38px;
+    float: left;
+}
+
+.header .rmb {
+    width: 83px;
+    height: 36px;
+    float: right;
+    line-height: 36px;
+    border-radius: 3px;
+    border: 1px solid #c9c9c9;
+}
+
+.subnav {
+    height: 51px;
+    text-align: center;
+}
+
+.subnav a {
+    margin-right: 48px;
+    line-height: 51px;
+    font-size: 14px;
+}
+
+.subnav a:hover {
+    color: #31c27c;
+}
+
+.rec-bg {
+    height: 494px;
+    width: 100%;
+    background: linear-gradient(#f2f2f2, #fff)
+}
+
+.demo {
+    height: 444px;
+    padding-top: 50px;
+}
+
+.demo .title {
+    text-align: center;
+}
+
+.demo .title span {
+    font-size: 32px;
+}
+
+.demo .list {
+    margin-top: 37px;
+    margin-bottom: 33px;
+}
+
+.demo .list a {
+    margin-right: 53px;
+    font-size: 14px;
+}
+
+.demo .list a:hover {
+    color: #31c27c;
+}
+
+.demo li {
+    float: left;
+    margin-right: 20px;
+}
+
+.demo li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.demo li img {
+    width: 224px;
+    height: 224px;
+}
+
+.demo li .name {
+    margin-top: 20px;
+}
+
+.demo li .play {
+    color: #999;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.sh-bg {
+    width: 100%;
+    height: 775px;
+    background: linear-gradient(#f2f2f2, #fff);
+}
+
+.ft-bg {
+    height: 428px;
+    background-color: #333;
+}
+
+.ft-bg .footer {
+    height: 100%;
+}
+
+.footer .web-links {
+    height: 214px;
+    width: 100%;
+    border-bottom: 1px solid #353535;
+    padding-top: 80px;
+}
+
+.footer .web-links .items {
+    float: left;
+}
+
+.web-links .items span {
+    font-size: 14px;
+    color: #999;
+}
+.web-links .app>span {
+    margin-left: 10px;
+}
+.app .client {
+    height: 80px;
+    width: 460px;
+    margin-top: 50px;
+    text-align: center;
+}
+.product .client {
+    width: 433px;
+}
+
+.app .client li {
+    float: left;
+    margin-right: 24px;
+}
+
+.app .client li a {
+    width: 70px;
+    height: 100px;
+    display: block;
+}
+.app .client li:nth-child(2) a {
+    width: 87px;
+}
+.app .client li a i {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url("../img/footer.png");
+    margin: 0 auto 15px;
+}
+
+.download .client .mac {
+    background-position-x: -90px;
+}
+
+.download .client .android {
+    background-position-x: -187px;
+}
+
+.download .client .iphone {
+    background-position-x: -277px;
+}
+
+.app .client li a:hover i {
+    background-position-y: -49px;
+}
+
+.product .more {
+    margin-top: 24px;
+    margin-left: 9px;
+}
+
+.product .more a {
+    color: #999;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.product .client .k-song {
+    background-position-x: -368px;
+}
+
+.product .client .super {
+    background-position-x: -461px;
+}
+
+.product .client .QPlay {
+    background-position-x: -558px;
+}
+
+.web-links .cooperation ul {
+    width: 300px;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.web-links .cooperation li {
+    font-size: 14px;
+    height: 14px;
+    width: 100px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.web-links .cooperation li a {
+    color: #999;
+}
+
+.footer .copyright {
+    padding-top: 32px;
+    text-align: center;
+    overflow: hidden;
+    color: #999;
+}
+
+.footer .copyright a {
+    color: #999;
+}
+
+.footer .copyright .year {
+    margin: 15px 0;
+}
